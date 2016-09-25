@@ -32,7 +32,6 @@ init:
 install:
     - IF EXIST c:\tools\php (SET PHP=0)
     - IF %PHP%==1 appveyor-retry choco upgrade chocolatey
-    ##- IF %PHP%==1 appveyor-retry cinst -y OpenSSL.Light
     - IF %PHP%==1 appveyor-retry cinst -y php --allow-empty-checksums --version %php_ver%
     - cd c:\tools\php
     - IF %PHP%==1 copy php.ini-production php.ini /Y
