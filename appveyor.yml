@@ -31,6 +31,7 @@ init:
 ## Install PHP and composer, and run the appropriate composer command
 install:
     - IF EXIST c:\tools\php (SET PHP=0)
+    - IF %PHP%==1 appveyor-retry choco upgrade chocolatey
     - IF %PHP%==1 appveyor-retry cinst -y OpenSSL.Light
     - IF %PHP%==1 appveyor-retry cinst -y php --version %php_ver%
     - cd c:\tools\php
