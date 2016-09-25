@@ -13,6 +13,12 @@ environment:
     php_ver: 7.0.9
   - dependencies: highest
     php_ver: 7.0.9
+  - dependencies: lowest
+    php_ver: 7.1RC1
+  - dependencies: current
+    php_ver: 7.1RC1
+  - dependencies: highest
+    php_ver: 7.1RC1
 
 ## Cache composer bits
 cache:
