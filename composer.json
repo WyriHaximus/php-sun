@@ -1,0 +1,30 @@
+{
+  "name": "wyrihaximus/☼",
+  "description": "Sun: A package for wrapping services and gathering metrics",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Cees-Jan Kiewiet",
+      "email": "ceesjank@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpbench/phpbench": "^0.11",
+    "phpspec/prophecy": "^1.6",
+    "phpunit/phpunit": "^5.5",
+    "squizlabs/php_codesniffer": "^2.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "WyriHaximus\\☼\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "WyriHaximus\\Tests\\☼\\": "tests/"
+    }
+  }
+}
