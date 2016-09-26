@@ -3,7 +3,6 @@ platform:
   - x64
 clone_folder: c:\projects\php-api-client
 
-
 ## Build matrix for lowest and highest possible targets
 environment:
   matrix:
