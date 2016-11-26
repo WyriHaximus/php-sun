@@ -1,5 +1,5 @@
 {
-  "name": "wyrihaximus/☼",
+  "name": "wyrihaximus/sun",
   "description": "Sun: A package for wrapping services and gathering metrics",
   "license": "MIT",
   "authors": [
@@ -12,6 +12,7 @@
     "php": "^7.0"
   },
   "require-dev": {
+    "humbug/humbug": "1.0.0-alpha2",
     "phpbench/phpbench": "^0.11",
     "phpspec/prophecy": "^1.6",
     "phpunit/phpunit": "^5.5",
